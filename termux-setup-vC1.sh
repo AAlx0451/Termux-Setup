@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # curl version
 # how to install? read README.md
-pkg install -y git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs
+pkg install git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs -y
 cd $HOME
 echo HISTSIZE=10000 >>.bashrc
 echo HISTFILESIZE=1000 >>.bashrc
