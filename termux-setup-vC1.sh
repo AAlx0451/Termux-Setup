@@ -22,7 +22,7 @@ echo
 echo  
 echo By AAlx, 2024
 echo https://t.me/femboi_4vk
-sleep 5
+sleep 12
 git clone https://github.com/AAlx0451/termux-style
 cd termux-style
 chmod +x *
