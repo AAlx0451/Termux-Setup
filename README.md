@@ -11,6 +11,6 @@ Also, Termux-style will be installed
 
 Clear installation
 
-pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-v4.sh | bash
+pkg update && pkg upgrade && pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-vC1.sh | bash
 
 2024, by AAlx
