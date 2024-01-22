@@ -11,7 +11,13 @@ echo  >>.bashrc
 echo export EDITOR=nano >>.bashrc
 git clone https://github.com/AAlx0451/termux-style
 cd termux-style
-chmod +x * && bash ~/termux-style/install && termux-style && termux-style && echo So
+chmod +x *
+bash ~/termux-style/install 
+termux-style
+sleep 10
+termux-style
+sleep 10
+echo So
 echo This is It
 echo Script By AAlx
 echo Any Problems?
