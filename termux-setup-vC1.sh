@@ -22,4 +22,8 @@ echo
 echo  
 echo By AAlx, 2024
 echo https://t.me/femboi_4vk
-echo To select theme or font type "termux-style"
+sleep 5
+git clone https://github.com/AAlx0451/termux-style
+cd termux-style
+chmod +x *
+bash ~/termux-style/install
