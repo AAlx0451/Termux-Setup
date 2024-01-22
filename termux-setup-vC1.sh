@@ -23,3 +23,4 @@ echo Write to my GitHub!
 echo  
 echo  
 echo By AAlx, 2024
+echo https://t.me/femboi_4vk
