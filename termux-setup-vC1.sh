@@ -23,4 +23,5 @@ git clone https://github.com/AAlx0451/termux-style
 cd termux-style
 chmod +x *
 bash ~/termux-style/install
+sleep 2
 echo To change theme/font: "termux-style"
