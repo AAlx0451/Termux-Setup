@@ -8,16 +8,17 @@ echo  >>.bashrc
 echo export HISTTIMEFORMAT="'%d.%m.%Y %H:%M:%S'" >>.bashrc
 echo  >>.bashrc
 echo export EDITOR=nano >>.bashrc
-git clone https://github.com/adi1090x/termux-style
+git clone https://github.com/AAlx0451/termux-style
 cd termux-style
 chmod +x *
 bash ~/termux-style/install
+termux-style
 termux-style
 echo So
 echo This is It
 echo Script By AAlx
 echo Any Problems?
-echo Edit Code!
+echo Write to my GitHub!
 echo  
 echo  
 echo By AAlx, 2024
