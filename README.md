@@ -15,6 +15,10 @@ pkg update && pkg upgrade && pkg install curl && curl https://raw.githubusercont
 
 Full installation (with downloading script)
 
-Download termux-setup.sh and run it (pkg install wget && wget https://github.com/AAlx0451/Termux-Setup/blob/main/termux-setup.sh && bash termux-setup.sh)
+Download termux-setup.sh and run it
+
+WGet full installation method
+
+pkg install wget && wget https://github.com/AAlx0451/Termux-Setup/blob/main/termux-setup.sh && bash termux-setup.sh
 
 2024, by AAlx
