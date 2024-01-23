@@ -17,7 +17,7 @@ Full installation (with downloading script)
 
 Download termux-setup.sh and run it
 
-WGet full installation method
+wGet full installation method
 
 pkg install wget && wget https://github.com/AAlx0451/Termux-Setup/blob/main/termux-setup.sh && bash termux-setup.sh
 
