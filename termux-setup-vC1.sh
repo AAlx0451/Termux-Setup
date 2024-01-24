@@ -1,27 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # curl version
 # how to install? read README.md
-pkg install git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs -y
-cd $HOME
-echo HISTSIZE=10000 >>.bashrc
-echo HISTFILESIZE=1000 >>.bashrc
-echo  >>.bashrc
-echo export HISTTIMEFORMAT="'%d.%m.%Y %H:%M:%S'" >>.bashrc
-echo  >>.bashrc
-echo export EDITOR=nano >>.bashrc
-echo So
-echo This is It
-echo Script By AAlx
-echo Any Problems?
-echo Write to my GitHub!
-echo  
-echo  
-echo By AAlx, 2024
-echo https://t.me/femboi_4vk
-sleep 12
-git clone https://github.com/AAlx0451/termux-style
-cd termux-style
-chmod +x *
-bash ~/termux-style/install
-sleep 2
-echo To change theme/font: "termux-style"
+pkg install git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs -y && cd $HOME && echo HISTSIZE=10000 >>.bashrc && echo HISTFILESIZE=1000 >>.bashrc && echo  >>.bashrc && echo export HISTTIMEFORMAT="'%d.%m.%Y %H:%M:%S'" >>.bashrc && echo  >>.bashrc && echo export EDITOR=nano >>.bashrc && git clone https://github.com/AAlx0451/termux-style && cd termux-style && chmod +x * && bash ~/termux-style/install && termux-style && termux-style && echo This is It && echo Script By AAlx && echo Any Problems? && echo Write to my GitHub! && echo  && echo  && echo By AAlx, 2024 && echo https://t.me/femboi_4vk
