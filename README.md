@@ -11,7 +11,7 @@ Also, Termux-style will be installed
 
 Clear installation (without downloading script)
 
-pkg update && pkg upgrade && pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-vC1.sh | bash
+pkg update && pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-vC1.sh | bash
 
 Full installation (with downloading script)
 
