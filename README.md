@@ -26,3 +26,4 @@ wGet full installation (like cURL, but with downloading latest release):
 pkg install wget && wget https://github.com/AAlx0451/Termux-Setup/blob/main/termux-setup.sh && bash termux-setup.sh
 
 2024, by AAlx
+ 
