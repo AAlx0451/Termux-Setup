@@ -11,10 +11,10 @@ Also, Termux-style will be installed
 
 Clear Installation (without downloading script):
 
-pkg update && pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-vC1.sh | bash
+pkg update && pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-vC1.sh | bash && termux-style && termux-style
 
-wGet full installation (like cURL, but with downloading latest release):
+Full installation (like cURL, but with downloading latest release):
 
-pkg install wget && wget https://github.com/AAlx0451/Termux-Setup/blob/main/termux-setup.sh && bash termux-setup.sh
+pkg update && pkg install git && git clone https://github.com/AAlx0451/Termux-Setup/ && cd Termux-Setup && bash termux-setup.sh && rm -rf $HOME/Termux-Setup
 
 2024, by AAlx
