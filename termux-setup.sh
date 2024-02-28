@@ -28,5 +28,4 @@ clear && echo  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠀⠀⠀⠀⠀⠀⠀⠀⠀�
 echo t.me/femboi_4vk
 echo  
 echo By AAlx, 2024
-rm -rf $HOME/termux-setup
 rm -rf $HOME/termux-style
