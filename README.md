@@ -17,7 +17,7 @@ Full installation (like cURL, but with downloading latest release):
 
 pkg update && pkg install git && git clone https://github.com/AAlx0451/Termux-Setup/ && cd Termux-Setup && bash termux-setup.sh && rm -rf $HOME/Termux-Setup
 
-Alternative version (13 lines version; no termux-style contained)
+Alternative version, no termux-style contained
 
 pkg update && pkg install curl && curl https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/termux-setup-ALT.sh | bash
 
