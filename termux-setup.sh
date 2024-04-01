@@ -42,5 +42,7 @@ if [[ $input == "Y" || $input == "y" ]]; then
   termux-style
   rm -rf $HOME/termux-style
 fi
+
+#end
 echo Wait 5 seconds... && sleep 1 && echo 4... && sleep 1 && echo 3... && sleep 1 && echo 2... && sleep 1 && echo 1... && sleep 1 && clear
 echo By AAlx, 2024
