@@ -51,3 +51,4 @@ fi
 clear
 echo By AAlx, 2024
 cd $HOME
+cat ~/../usr/etc/motd && echo   && echo All done! If you liked it, please rate it in github.com/aalx0451/termux-setup/
