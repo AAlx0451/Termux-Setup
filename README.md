@@ -11,6 +11,6 @@ Also, Termux-style will be installed
 
 Installation:
 
-curl -o termux-setup.sh https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/1.sh && bash 1.sh && rm 1.sh
+curl -o 1.sh https://raw.githubusercontent.com/AAlx0451/Termux-Setup/main/1.sh && bash 1.sh && rm 1.sh
 
 2024, by AAlx
