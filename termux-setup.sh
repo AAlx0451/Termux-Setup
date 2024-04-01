@@ -50,5 +50,7 @@ fi
 #end
 clear
 echo By AAlx, 2024
+sleep 2
 cd $HOME
+clear
 cat ~/../usr/etc/motd && echo   && echo All done! If you liked it, please rate it in github.com/aalx0451/termux-setup/
