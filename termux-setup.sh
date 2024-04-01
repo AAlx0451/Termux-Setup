@@ -50,3 +50,4 @@ fi
 #end
 clear
 echo By AAlx, 2024
+cd $HOME
