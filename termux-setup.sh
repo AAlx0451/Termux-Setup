@@ -20,9 +20,9 @@ echo  >>.bashrc
 clear
 echo "Do you want to use nano or vim text editor as default? [Nano,vim]"
 read custom_editor
-if [[ $custom_editor == "nano" || $custom_editor == "Na>
+if [[ $custom_editor == "nano" || $custom_editor == "Nano" ]]
   echo export EDITOR=nano >>.bashrc
-elif [[ $custom_editor == "vim" || $custom_editor == "V>
+elif [[ $custom_editor == "vim" || $custom_editor == "Vim" ]]
   echo export EDITOR=vim >>.bashrc
 else
   echo "Please, edit $HOME/.bashrc yourself"
