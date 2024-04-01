@@ -24,7 +24,7 @@ if [[ $custom_editor == "nano" || $custom_editor == "Nano" ]]; then
 elif [[ $custom_editor == "vim" || $custom_editor == "Vim" ]]
   echo export EDITOR=vim >>.bashrc
 else
-  echo Please, edit $HOME/.bashrc yourself
+  echo "Please, edit $HOME/.bashrc yourself"
   echo '#export EDITOR=<editor_name>' >>.bashrc
 fi
 echo  >>.bashrc
