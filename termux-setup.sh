@@ -30,9 +30,11 @@ else
 fi
 echo  >>.bashrc
 echo '#aliases'>>.bashrc
+echo "Do you want to use bat (improved cat) instead of cat? To run cat - oldcat [Y/n]"
+read bat
 
 #theme add-on
-clear
+clear -x
 echo "Do you want to install termux-style theme add-on? [Y,n]"
 read input
 if [[ $input == "Y" || $input == "y" ]]; then
@@ -48,9 +50,13 @@ elif [[ $input == "N" || $input == "n" ]]; then
 fi
 
 #end
-clear
+clear -x
 echo By AAlx, 2024
 sleep 2
 cd $HOME
 clear
 cat ~/../usr/etc/motd && echo   && echo All done! If you liked it, please rate it in github.com/aalx0451/termux-setup/
+if [[ $bat == "y" || $bat == "Y" ]]; then
+  echo alias cat='"bat"' >>.bashrc
+  echo alias oldcat='"~/usr/bin/cat"' >>.bashrc
+fi
