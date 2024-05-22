@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 #updating termux 
-echo If it will ask you when termux is updating, enter Y && pkg update -y && pkg upgrade -y && echo Updated successfully!
+echo If it will ask you when termux is updating, enter Y && sleep 2 && pkg update -y && pkg upgrade -y && echo Updated successfully!
 
 #internal storage r/w permission
 termux-setup-storage
