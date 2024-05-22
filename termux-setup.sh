@@ -1,14 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 #updating termux 
-rm -rf /data/data/com.termux/files/usr/etc/tls/openssl.cnf /data/data/com.termux/files/usr/etc/motd /data/data/com.termux/files/usr/etc/motd-playstore /data/data/com.termux/files/usr/etc/bash.bashrc
-pkg update -y && pkg upgrade -y
+echo If it will ask you when termux is updating, enter `y` && pkg update -y && pkg upgrade -y && echo Updated successfully
 
 #internal storage r/w permission
 termux-setup-storage
 
-#installing all most popular packages
-pkg install git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs -y
+#installing some popular packages
+pkg install git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs eza bat -y
 
 #some shell settings 
 cd $HOME
@@ -18,7 +17,7 @@ echo HISTFILESIZE=1000 >>.bashrc
 echo  >>.bashrc
 echo export HISTTIMEFORMAT="'%d.%m.%Y %H:%M:%S'" >>.bashrc
 echo  >>.bashrc
-clear
+clear -x
 echo "Do you want to use nano or vim text editor as default? [Nano,vim]"
 read custom_editor
 if [[ $custom_editor == "nano" || $custom_editor == "Nano" ]]; then
