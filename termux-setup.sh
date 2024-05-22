@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 #updating termux 
+rm -rf /data/data/com.termux/files/usr/etc/tls/openssl.cnf /data/data/com.termux/files/usr/etc/motd /data/data/com.termux/files/usr/etc/motd-playstore /data/data/com.termux/files/usr/etc/profile.d/init-termux-properties.sh /data/data/com.termux/files/usr/etc/apt/sources.list /data/data/com.termux/files/usr/etc/bash.bashrc
 pkg update -y && pkg upgrade -y
 
 #internal storage r/w permission
