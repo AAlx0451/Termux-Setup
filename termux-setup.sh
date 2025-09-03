@@ -7,13 +7,13 @@ echo If it will ask you when termux is updating, enter Y && sleep 2 && pkg updat
 termux-setup-storage
 
 #installing some popular packages
-pkg install git python python2 php unzip bash openssl openssh nano vim wget curl tsu nano cronie grep lsof android-tools gawk nodejs eza bat -y
+pkg install git python python2 php unzip openssl openssh nano vim wget curl sudo cronie grep lsof android-tools gawk nodejs eza bat -y
 
 #some shell settings 
 cd $HOME
-echo '#settings'>>.bashrc
+echo '# settings'>>.bashrc
 echo HISTSIZE=10000 >>.bashrc
-echo HISTFILESIZE=1000 >>.bashrc
+echo HISTFILESIZE=10000 >>.bashrc
 echo  >>.bashrc
 echo export HISTTIMEFORMAT="'%d.%m.%Y %H:%M:%S'" >>.bashrc
 echo  >>.bashrc
@@ -29,11 +29,11 @@ else
   echo '#export EDITOR=<editor_name>' >>.bashrc
 fi
 echo  >>.bashrc
-echo '#aliases'>>.bashrc
+echo '# aliases'>>.bashrc
 echo "Do you want to use bat (improved cat) instead of cat? To run cat - oldcat [Y/n]"
 read bat
 
-#theme add-on
+# theme add-on
 clear -x
 echo "Do you want to install termux-style theme add-on? [Y,n]"
 read input
@@ -55,7 +55,7 @@ echo By AAlx, 2024
 sleep 2
 cd $HOME
 clear
-cat ~/../usr/etc/motd && echo   && echo All done! If you liked it, please rate it in github.com/aalx0451/termux-setup/
+cat ~/../usr/etc/motd && echo   && echo All done! If you liked it, please rate it – github.com/aalx0451/termux-setup/
 if [[ $bat == "y" || $bat == "Y" ]]; then
   echo alias cat='"bat"' >>.bashrc
   echo alias oldcat='"~/usr/bin/cat"' >>.bashrc
